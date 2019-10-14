@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Broadcast Mock SMS</string>
+
+    <string name="label_sender">From:</string>
+    <string name="label_message">Message:</string>
+    <string name="label_button_send">SEND</string>
+</resources>
