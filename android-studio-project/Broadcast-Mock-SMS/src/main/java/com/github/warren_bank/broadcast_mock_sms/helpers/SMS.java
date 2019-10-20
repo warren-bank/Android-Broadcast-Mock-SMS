@@ -44,12 +44,21 @@ public class SMS {
         byte[] bodybytes = (byte[]) stringToGsm7BitPacked.invoke(null, body);
         bo.write(bodybytes);
         pdu = bo.toByteArray();
- 
+
         // broadcast the SMS_RECEIVED to registered receivers
         broadcastSmsReceived(context, pdu);
  
-        // or, directly send the message into the inbox and let the usual SMS handling happen - SMS appearing in Inbox, a notification with sound, etc.
-        startSmsReceiverService(context, pdu);
+        // send the message through the full pipeline for inbound SMS messages: add to the database, show notification with sound, etc.
+        // COMMENTS:
+        //  * this call is probably unnecessary
+        //  * this call is 99% likely to fail (due to security upgrades that happened a long time ago)
+        // TODO:
+        //  * this call should probably be removed altogether
+        //    for the moment, trap and ignore any errors
+        try {
+            startSmsReceiverService(context, pdu);
+        }
+        catch (Exception e) {}
     }
 
     private static final byte reverseByte(byte b) {

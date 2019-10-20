@@ -27,14 +27,23 @@ Android app that broadcasts a mock SMS to mimic receiving a new text message.
       * root is required
       * [Link2SD](https://play.google.com/store/apps/details?id=com.buak.Link2SD) is a free app that automates converting an app between user and system (as well as lots of other useful things)
     * according to my (very limited) testing, the previous assertion appears to be untrue
-  * on the test device that I happen to be using during development:
-    * the `SMS_RECEIVED` Intent:
-      * at first, it wasn't getting broadcast
-      * I noticed in logcat that another app was throwing a Security Exception
-      * after I froze "Visual Voicemail", it started working
-    * the `SmsReceiverService`:
-      * _Unable to start service Intent ... not found_
+  * on test device &#x23;1 (4.4.2 KK):
+    * broadcasting the `SMS_RECEIVED` Intent:
+      * initially, not working
+        * logcat: a Security Exception was being thrown by another unrelated app
+        * started working after "Visual Voicemail" was frozen
+    * starting the `SmsReceiverService`:
+      * not working:
+        * logcat: _Unable to start service Intent ... not found_
+        * does not throw any Exception
+        * same behavior when the app is installed as user or system
       * __TO DO:__ look into the cause and any possible workaround
+  * on test device &#x23;2 (4.1.2 JB):
+    * broadcasting the `SMS_RECEIVED` Intent:
+      * working as expected
+    * starting the `SmsReceiverService`:
+      * not working:
+        * does throw an Exception
 
 #### Credits:
 
