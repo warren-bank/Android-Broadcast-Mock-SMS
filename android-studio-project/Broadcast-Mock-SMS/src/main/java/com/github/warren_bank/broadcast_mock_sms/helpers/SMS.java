@@ -117,7 +117,7 @@ public class SMS {
         intent.setAction("android.intent.action.DATA_SMS_RECEIVED");
         intent.putExtra("pdus", new Object[] { pdu });
         intent.putExtra("format", "3gpp");
-        intent.setDataAndNormalize(dataUri);
+        intent.setData(dataUri);
         context.sendBroadcast(intent);
     }
 
