@@ -21,5 +21,15 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".TextSmsActivity"
+            android:configChanges="colorMode|density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+            android:launchMode="standard" />
+
+        <activity
+            android:name=".DataSmsActivity"
+            android:configChanges="colorMode|density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+            android:launchMode="standard" />
+
     </application>
 </manifest>
