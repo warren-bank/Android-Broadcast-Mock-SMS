@@ -51,10 +51,22 @@ public class SMS {
         ByteArrayOutputStream bo = getPduHeader(sender);
 
         byte[] bodybytes = hexToByteArray(hex);
+        bo.write(getPduDataPrefix(bodybytes));
         bo.write(bodybytes);
         byte[] pdu = bo.toByteArray();
 
         return pdu;
+    }
+
+    private static final byte getPduDataPrefix(byte[] bodybytes) throws Exception {
+        final int maxLength = 224;
+        final int len = bodybytes.length;
+
+        if (len > maxLength)
+            throw new Exception("too much data");
+
+        byte prefix = (byte) ((int) ((8/7)*(len) - 1));
+        return prefix;
     }
 
     private static final ByteArrayOutputStream getPduHeader(String sender) throws Exception {
