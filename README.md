@@ -17,6 +17,25 @@ Android app that broadcasts a mock SMS to mimic receiving a new text/data messag
 
 * minimum supported version of Android:
   * Android 1.0 (API 1)
+* [will __not__ work](https://commonsware.com/blog/2013/10/06/secured-broadcasts-sms-clients.html) when a broadcast receiver requires a signature-level permission that is defined by the Android platform
+  * for example:
+    ```xml
+      <receiver
+          android:name=".SmsReceiver"
+          android:permission="android.permission.BROADCAST_SMS">
+          <intent-filter>
+              <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+          </intent-filter>
+      </receiver>
+    ```
+  * `android.permission.BROADCAST_SMS` is a signature-level permission
+    * this permission is defined by the Android platform
+    * only apps signed with the same key as the firmware can acquire this permission
+  * `SmsReceiver` is a broadcast receiver that only receives Intents broadcast from apps that have acquired this permission
+    * neither this app, nor any other 3rd party apps, can satisfy this filter criteria
+  * suggestion:
+    * during development, remove `android:permission="android.permission.BROADCAST_SMS"` to allow testing with mock SMS broadcasts
+    * add it back for release builds
 
 #### Legal:
 
