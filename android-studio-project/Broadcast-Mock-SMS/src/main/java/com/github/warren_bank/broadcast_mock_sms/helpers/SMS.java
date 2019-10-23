@@ -117,6 +117,7 @@ public class SMS {
 
     private static final void broadcastSmsReceived(Context context, byte[] pdu) {
         Intent intent = new Intent();
+        intent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
         intent.setAction("android.provider.Telephony.SMS_RECEIVED");
         intent.putExtra("pdus", new Object[] { pdu });
         intent.putExtra("format", "3gpp");
@@ -126,6 +127,7 @@ public class SMS {
     private static final void broadcastDataSmsReceived(Context context, byte[] pdu, int port) {
         Uri dataUri = Uri.parse("sms://*:" + port);
         Intent intent = new Intent();
+        intent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
         intent.setAction("android.intent.action.DATA_SMS_RECEIVED");
         intent.putExtra("pdus", new Object[] { pdu });
         intent.putExtra("format", "3gpp");
