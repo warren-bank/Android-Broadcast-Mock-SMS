@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.warren_bank.notify_mock_sms">
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="false"
+        android:label="Notify Mock SMS">
+
+        <receiver
+            android:name=".MockSmsReceiver">
+
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.DATA_SMS_RECEIVED" />
+                <data
+                    android:host="*"
+                    android:scheme="sms" />
+            </intent-filter>
+
+          <!-- if the app were to only listen on particular port(s) -->
+          <!--
+            <intent-filter>
+                <action android:name="android.intent.action.DATA_SMS_RECEIVED" />
+                <data
+                    android:host="*"
+                    android:port="9200"
+                    android:scheme="sms" />
+            </intent-filter>
+          -->
+
+        </receiver>
+
+    </application>
+</manifest>
