@@ -17,6 +17,8 @@ Android app that broadcasts a mock SMS to mimic receiving a new text/data messag
 
 * minimum supported version of Android:
   * Android 1.0 (API 1)
+* maximum supported version of Android:
+  * Android 5.1 (API 22)
 * [will __not__ work](https://commonsware.com/blog/2013/10/06/secured-broadcasts-sms-clients.html) when a broadcast receiver requires a signature-level permission that is defined by the Android platform
   * for example:
     ```xml

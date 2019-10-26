@@ -3,8 +3,6 @@
           xmlns:tools="http://schemas.android.com/tools"
           package="com.github.warren_bank.broadcast_mock_sms">
 
-    <uses-permission android:name="android.permission.BROADCAST_SMS" />
-
     <application
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
