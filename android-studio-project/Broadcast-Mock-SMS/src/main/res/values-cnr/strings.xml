@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prevod i adaptacija: SMS</string>
+    <string name="tab_sms_text">Jedan tekst. SMS</string>
+    <string name="tab_sms_data">Jedan podatak. SMS</string>
+    <string name="label_sender">Od početka.:</string>
+    <string name="label_message">Jedna poruka.:</string>
+    <string name="label_hex_data">Hex Jedan podatak.:</string>
+    <string name="label_port_number">Broj jedan.:</string>
+    <string name="label_button_send">POŠALJI</string>
+</resources>

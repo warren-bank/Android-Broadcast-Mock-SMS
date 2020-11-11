@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ब्रॉडकास्ट नकली SMS</string>
+    <string name="tab_sms_text">पाठ SMS</string>
+    <string name="tab_sms_data">डाटा SMS</string>
+    <string name="label_sender">से:</string>
+    <string name="label_message">संदेश:</string>
+    <string name="label_hex_data">Hex डाटा:</string>
+    <string name="label_port_number">पोर्ट संख्या:</string>
+    <string name="label_button_send">अंत</string>
+</resources>

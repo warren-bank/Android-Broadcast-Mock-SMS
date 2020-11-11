@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maqueta de difusión SMS</string>
+    <string name="tab_sms_text">Texto SMS</string>
+    <string name="tab_sms_data">Datos SMS</string>
+    <string name="label_sender">De:</string>
+    <string name="label_message">Mensaje:</string>
+    <string name="label_hex_data">Hex Datos:</string>
+    <string name="label_port_number">Número de puerto:</string>
+    <string name="label_button_send">ENVIAR</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vysielať Mock SMS</string>
+    <string name="tab_sms_text">Text SMS</string>
+    <string name="tab_sms_data">Údaje SMS</string>
+    <string name="label_sender">Od:</string>
+    <string name="label_message">Správa:</string>
+    <string name="label_hex_data">Hex Údaje:</string>
+    <string name="label_port_number">Číslo portu:</string>
+    <string name="label_button_send">SEND</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بوك موك SMS</string>
+    <string name="tab_sms_text">النص SMS</string>
+    <string name="tab_sms_data">البيانات SMS</string>
+    <string name="label_sender">من:</string>
+    <string name="label_message">الرسالة:</string>
+    <string name="label_hex_data">Hex البيانات:</string>
+    <string name="label_port_number">رقم المنفذ:</string>
+    <string name="label_button_send">ارسال</string>
+</resources>

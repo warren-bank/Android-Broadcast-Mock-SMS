@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Emitiranje Emitiranja SMS</string>
+    <string name="tab_sms_text">Tekst SMS</string>
+    <string name="tab_sms_data">Podaci SMS</string>
+    <string name="label_sender">Od:</string>
+    <string name="label_message">Poruka:</string>
+    <string name="label_hex_data">Hex Podaci:</string>
+    <string name="label_port_number">Broj porta:</string>
+    <string name="label_button_send">SEND</string>
+</resources>

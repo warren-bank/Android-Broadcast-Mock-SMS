@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kringkastings SMS</string>
+    <string name="tab_sms_text">Tekst SMS</string>
+    <string name="tab_sms_data">Data SMS</string>
+    <string name="label_sender">Fra:</string>
+    <string name="label_message">Beskjed:</string>
+    <string name="label_hex_data">Hex Data:</string>
+    <string name="label_port_number">Portnummer:</string>
+    <string name="label_button_send">SEND</string>
+</resources>

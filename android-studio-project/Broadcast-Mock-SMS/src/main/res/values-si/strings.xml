@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">බ්රෝඩ්කාස්ට් මොක් SMS</string>
+    <string name="tab_sms_text">පෙළ SMS</string>
+    <string name="tab_sms_data">දත්ත SMS</string>
+    <string name="label_sender">සිට:</string>
+    <string name="label_message">පණිවිඩය:</string>
+    <string name="label_hex_data">Hex දත්ත:</string>
+    <string name="label_port_number">පෝර්ට් අංකය:</string>
+    <string name="label_button_send">යවන්න</string>
+</resources>

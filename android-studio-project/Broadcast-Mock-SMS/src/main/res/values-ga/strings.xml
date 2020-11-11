@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Craoladh Mock SMS</string>
+    <string name="tab_sms_text">Téacs SMS</string>
+    <string name="tab_sms_data">Sonraí SMS</string>
+    <string name="label_sender">Ó:</string>
+    <string name="label_message">Teachtaireacht::</string>
+    <string name="label_hex_data">Hex Sonraí:</string>
+    <string name="label_port_number">Uimhir Phoirt:</string>
+    <string name="label_button_send">SEOL</string>
+</resources>

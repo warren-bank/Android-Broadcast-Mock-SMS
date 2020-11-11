@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">שידור שידור SMS</string>
+    <string name="tab_sms_text">טקסט SMS</string>
+    <string name="tab_sms_data">נתונים SMS</string>
+    <string name="label_sender">מ -:</string>
+    <string name="label_message">הודעה:</string>
+    <string name="label_hex_data">Hex נתונים:</string>
+    <string name="label_port_number">מספר יציאה:</string>
+    <string name="label_button_send">שלח</string>
+</resources>

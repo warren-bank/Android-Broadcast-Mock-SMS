@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock de diffusion SMS</string>
+    <string name="tab_sms_text">Texte SMS</string>
+    <string name="tab_sms_data">Données SMS</string>
+    <string name="label_sender">De:</string>
+    <string name="label_message">Message:</string>
+    <string name="label_hex_data">Hex Données:</string>
+    <string name="label_port_number">Numéro de port:</string>
+    <string name="label_button_send">ENVOYER</string>
+</resources>

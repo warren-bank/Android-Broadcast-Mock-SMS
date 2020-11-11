@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">బ్రాడ్కాస్ట్ మక్ SMS</string>
+    <string name="tab_sms_text">వచనము SMS</string>
+    <string name="tab_sms_data">డాటా SMS</string>
+    <string name="label_sender">నుండి:</string>
+    <string name="label_message">సందేశం:</string>
+    <string name="label_hex_data">Hex డాటా:</string>
+    <string name="label_port_number">పోర్ట్ సంఖ్య:</string>
+    <string name="label_button_send">పంపు</string>
+</resources>

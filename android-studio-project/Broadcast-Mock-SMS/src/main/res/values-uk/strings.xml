@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Широкомовний макет SMS</string>
+    <string name="tab_sms_text">Текст SMS</string>
+    <string name="tab_sms_data">Дані SMS</string>
+    <string name="label_sender">З:</string>
+    <string name="label_message">Повідомлення:</string>
+    <string name="label_hex_data">Hex Дані:</string>
+    <string name="label_port_number">Номер порту:</string>
+    <string name="label_button_send">SEND</string>
+</resources>

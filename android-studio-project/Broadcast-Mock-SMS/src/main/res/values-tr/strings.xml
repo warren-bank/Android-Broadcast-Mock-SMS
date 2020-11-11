@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yayın Alay SMS</string>
+    <string name="tab_sms_text">Metin SMS</string>
+    <string name="tab_sms_data">Veri SMS</string>
+    <string name="label_sender">Başlangıç:</string>
+    <string name="label_message">İleti:</string>
+    <string name="label_hex_data">Hex Veri:</string>
+    <string name="label_port_number">Kapı Numarası:</string>
+    <string name="label_button_send">SEND</string>
+</resources>

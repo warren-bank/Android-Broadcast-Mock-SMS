@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Szélessávú Mock SMS</string>
+    <string name="tab_sms_text">Szöveg SMS</string>
+    <string name="tab_sms_data">Adatok SMS</string>
+    <string name="label_sender">Forrás::</string>
+    <string name="label_message">Üzenet:</string>
+    <string name="label_hex_data">Hex Adatok:</string>
+    <string name="label_port_number">Portszám:</string>
+    <string name="label_button_send">KÜLDÉS</string>
+</resources>

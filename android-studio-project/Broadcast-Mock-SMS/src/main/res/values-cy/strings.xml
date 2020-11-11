@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Llew Darlledu SMS</string>
+    <string name="tab_sms_text">Testun SMS</string>
+    <string name="tab_sms_data">Data SMS</string>
+    <string name="label_sender">O:</string>
+    <string name="label_message">Neges:</string>
+    <string name="label_hex_data">Hex Data:</string>
+    <string name="label_port_number">Rhif Porth:</string>
+    <string name="label_button_send">ANFON</string>
+</resources>

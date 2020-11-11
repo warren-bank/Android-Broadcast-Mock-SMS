@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rozgłaszanie Mock SMS</string>
+    <string name="tab_sms_text">Tekst SMS</string>
+    <string name="tab_sms_data">Dane SMS</string>
+    <string name="label_sender">Od:</string>
+    <string name="label_message">Wiadomość:</string>
+    <string name="label_hex_data">Hex Dane:</string>
+    <string name="label_port_number">Numer portu:</string>
+    <string name="label_button_send">WYŚLIJ</string>
+</resources>

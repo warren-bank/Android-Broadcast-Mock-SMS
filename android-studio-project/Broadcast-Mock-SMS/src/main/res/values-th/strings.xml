@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">การจำลองแบบกระจาย SMS</string>
+    <string name="tab_sms_text">ข้อความ SMS</string>
+    <string name="tab_sms_data">ข้อมูล SMS</string>
+    <string name="label_sender">จาก:</string>
+    <string name="label_message">ข้อความ:</string>
+    <string name="label_hex_data">Hex ข้อมูล:</string>
+    <string name="label_port_number">หมายเลขพอร์ต:</string>
+    <string name="label_button_send">ส่ง</string>
+</resources>

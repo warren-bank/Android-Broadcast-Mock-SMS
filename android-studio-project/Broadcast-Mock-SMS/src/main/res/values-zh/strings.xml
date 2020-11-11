@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">广播模拟 SMS</string>
+    <string name="tab_sms_text">文本 SMS</string>
+    <string name="tab_sms_data">数据 SMS</string>
+    <string name="label_sender">从:</string>
+    <string name="label_message">消息:</string>
+    <string name="label_hex_data">Hex 数据:</string>
+    <string name="label_port_number">端口号:</string>
+    <string name="label_button_send">SEND</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chương trình phát sóng SMS</string>
+    <string name="tab_sms_text">Văn bản SMS</string>
+    <string name="tab_sms_data">Dữ liệu SMS</string>
+    <string name="label_sender">Từ:</string>
+    <string name="label_message">Thông báo:</string>
+    <string name="label_hex_data">Hex Dữ liệu:</string>
+    <string name="label_port_number">Số cổng:</string>
+    <string name="label_button_send">KẾT THÚC</string>
+</resources>

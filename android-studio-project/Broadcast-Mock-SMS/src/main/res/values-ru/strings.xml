@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Инсценировать SMS</string>
+    <string name="tab_sms_text">Текст SMS</string>
+    <string name="tab_sms_data">Данные SMS</string>
+    <string name="label_sender">От:</string>
+    <string name="label_message">Сообщение:</string>
+    <string name="label_hex_data">Hex Данные:</string>
+    <string name="label_port_number">Номер порта:</string>
+    <string name="label_button_send">ОТПРАВИТЬ</string>
+</resources>

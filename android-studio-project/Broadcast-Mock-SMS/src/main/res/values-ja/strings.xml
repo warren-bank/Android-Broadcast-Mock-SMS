@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ブロードキャスト・モック SMS</string>
+    <string name="tab_sms_text">本文 SMS</string>
+    <string name="tab_sms_data">データ SMS</string>
+    <string name="label_sender">差出人:</string>
+    <string name="label_message">メッセージ:</string>
+    <string name="label_hex_data">Hex データ:</string>
+    <string name="label_port_number">ポート番号:</string>
+    <string name="label_button_send">送信</string>
+</resources>

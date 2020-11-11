@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock Broadcast SMS</string>
+    <string name="tab_sms_text">Κείμενο: SMS</string>
+    <string name="tab_sms_data">Δεδομένα: SMS</string>
+    <string name="label_sender">Από::</string>
+    <string name="label_message">Μήνυμα::</string>
+    <string name="label_hex_data">Hex Δεδομένα::</string>
+    <string name="label_port_number">Αριθμός θύρας::</string>
+    <string name="label_button_send">ΑΠΟΣΤΟΛΉ:</string>
+</resources>

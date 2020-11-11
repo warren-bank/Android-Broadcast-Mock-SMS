@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ব্রডকাস্ট মোক SMS</string>
+    <string name="tab_sms_text">টেক্সট SMS</string>
+    <string name="tab_sms_data">ডাটা SMS</string>
+    <string name="label_sender">সেখান থেকে:</string>
+    <string name="label_message">বার্তা:</string>
+    <string name="label_hex_data">Hex ডাটা:</string>
+    <string name="label_port_number">পোর্ট নম্বর:</string>
+    <string name="label_button_send">প্রেরণ</string>
+</resources>

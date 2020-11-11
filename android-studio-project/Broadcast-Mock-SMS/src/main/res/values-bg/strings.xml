@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Излъчване: SMS</string>
+    <string name="tab_sms_text">Текст: SMS</string>
+    <string name="tab_sms_data">Данни: SMS</string>
+    <string name="label_sender">От ...:</string>
+    <string name="label_message">Съобщение::</string>
+    <string name="label_hex_data">Hex Данни::</string>
+    <string name="label_port_number">Номер на порт:</string>
+    <string name="label_button_send">Скрай.</string>
+</resources>

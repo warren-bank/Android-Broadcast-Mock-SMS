@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Joc de difuzare SMS</string>
+    <string name="tab_sms_text">Text SMS</string>
+    <string name="tab_sms_data">Date SMS</string>
+    <string name="label_sender">De la:</string>
+    <string name="label_message">Mesaj:</string>
+    <string name="label_hex_data">Hex Date:</string>
+    <string name="label_port_number">Număr port:</string>
+    <string name="label_button_send">SEND</string>
+</resources>

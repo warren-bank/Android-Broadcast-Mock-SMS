@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ஒலிபரப்பு மோக்Comment SMS</string>
+    <string name="tab_sms_text">உரை SMS</string>
+    <string name="tab_sms_data">தரவு SMS</string>
+    <string name="label_sender">லிருந்து:</string>
+    <string name="label_message">செய்தி:</string>
+    <string name="label_hex_data">Hex தரவு:</string>
+    <string name="label_port_number">துறை எண்:</string>
+    <string name="label_button_send">அனுப்பு</string>
+</resources>

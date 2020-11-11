@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Xandira Finta SMS</string>
+    <string name="tab_sms_text">Test SMS</string>
+    <string name="tab_sms_data">Data SMS</string>
+    <string name="label_sender">Minn:</string>
+    <string name="label_message">Messaġġ:</string>
+    <string name="label_hex_data">Hex Data:</string>
+    <string name="label_port_number">Numru Tal-port:</string>
+    <string name="label_button_send">SEND</string>
+</resources>

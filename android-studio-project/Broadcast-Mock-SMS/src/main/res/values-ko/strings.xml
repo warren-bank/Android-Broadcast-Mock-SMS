@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">브로드캐스트 Mock SMS</string>
+    <string name="tab_sms_text">텍스트 SMS</string>
+    <string name="tab_sms_data">데이터 SMS</string>
+    <string name="label_sender">시작:</string>
+    <string name="label_message">메시지:</string>
+    <string name="label_hex_data">Hex 데이터:</string>
+    <string name="label_port_number">포트 번호:</string>
+    <string name="label_button_send">보내기</string>
+</resources>

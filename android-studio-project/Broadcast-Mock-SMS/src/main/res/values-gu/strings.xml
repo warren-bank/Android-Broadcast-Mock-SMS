@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">બ્રોડકાસ્ટ મોક SMS</string>
+    <string name="tab_sms_text">લખાણ SMS</string>
+    <string name="tab_sms_data">માહિતી SMS</string>
+    <string name="label_sender">તરફથી:</string>
+    <string name="label_message">સંદેશો:</string>
+    <string name="label_hex_data">Hex માહિતી:</string>
+    <string name="label_port_number">પોર્ટ નંબર:</string>
+    <string name="label_button_send">મોકલો</string>
+</resources>

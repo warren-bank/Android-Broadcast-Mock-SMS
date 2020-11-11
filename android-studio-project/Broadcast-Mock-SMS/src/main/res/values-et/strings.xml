@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Levituskiik SMS</string>
+    <string name="tab_sms_text">Tekst SMS</string>
+    <string name="tab_sms_data">Andmed SMS</string>
+    <string name="label_sender">Alates:</string>
+    <string name="label_message">Sõnum:</string>
+    <string name="label_hex_data">Hex Andmed:</string>
+    <string name="label_port_number">Pordi number:</string>
+    <string name="label_button_send">SEND</string>
+</resources>

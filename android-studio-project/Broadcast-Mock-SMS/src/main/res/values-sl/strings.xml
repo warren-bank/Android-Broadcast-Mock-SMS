@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oddajanje Televizijskih Programov SMS</string>
+    <string name="tab_sms_text">Besedilo SMS</string>
+    <string name="tab_sms_data">Podatki SMS</string>
+    <string name="label_sender">Od:</string>
+    <string name="label_message">Sporočilo:</string>
+    <string name="label_hex_data">Hex Podatki:</string>
+    <string name="label_port_number">Številka vrat:</string>
+    <string name="label_button_send">SEND</string>
+</resources>

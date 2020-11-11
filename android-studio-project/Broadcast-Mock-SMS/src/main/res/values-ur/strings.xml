@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">براڈ میاک SMS</string>
+    <string name="tab_sms_text">متن SMS</string>
+    <string name="tab_sms_data">ڈیٹا SMS</string>
+    <string name="label_sender">سے:</string>
+    <string name="label_message">پیغام:</string>
+    <string name="label_hex_data">Hex ڈیٹا:</string>
+    <string name="label_port_number">پورٹ نمبر:</string>
+    <string name="label_button_send">بھیجیں</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tempat Jek SMS</string>
+    <string name="tab_sms_text">Teks SMS</string>
+    <string name="tab_sms_data">Data SMS</string>
+    <string name="label_sender">Dari:</string>
+    <string name="label_message">Pesan:</string>
+    <string name="label_hex_data">Hex Data:</string>
+    <string name="label_port_number">Nomor Port:</string>
+    <string name="label_button_send">SEND</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ബ്രോഡ്കാസ്റ്റ് മാക്ക് SMS</string>
+    <string name="tab_sms_text">പദാവലി SMS</string>
+    <string name="tab_sms_data">ഡേറ്റാ SMS</string>
+    <string name="label_sender">മുതല്:</string>
+    <string name="label_message">സന്ദേശം:</string>
+    <string name="label_hex_data">Hex ഡേറ്റാ:</string>
+    <string name="label_port_number">പോര്ട്ട് നംബര്:</string>
+    <string name="label_button_send">അയയ്ക്കുക</string>
+</resources>
